@@ -668,13 +668,13 @@ body {
     background: rgba(0,0,0,.75);
     text-decoration: none;
     transition: all .5s;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
 }
 
 .next-event-slider .featured-image:hover .entry-content {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .next-event-slider .entry-content h3 {
