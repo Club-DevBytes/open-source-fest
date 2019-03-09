@@ -1835,7 +1835,7 @@ body {
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title {
-    width: 400px;
+    width: 380px;
     margin-bottom: 20px;
     padding: 20px;
     font-size: 16px;
@@ -1857,7 +1857,7 @@ body {
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-content {
     display: none;
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0 12px;
     font-size: 15px;
