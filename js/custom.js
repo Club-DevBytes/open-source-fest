@@ -3,10 +3,18 @@
     // 'use strict';
 
     // Main Navigation
-    $( '.hamburger-menu' ).on( 'click', function() {
-        $(this).toggleClass('open');
-        $('.site-navigation').toggleClass('show');
-    });
+    // $( '.hamburger-menu' ).on( 'click', function() {
+    //     $(this).toggleClass('open');
+    //     $('.site-navigation').toggleClass('show');
+    // });
+
+    $('.hamburger-menu').on('click', function () {
+        $('.site-navigation').addClass('show');
+      });
+      
+      $( '.site-navigation ul' ).on("click", function(){
+        $('.site-navigation').removeClass('show');
+      });
 
     var countdown_date = $('.countdown').data("date");
 
