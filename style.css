@@ -241,7 +241,7 @@ body {
     .hero-content{
         padding: 220px 0;
         background: url("images/cover.jpg") no-repeat;
-        background-size: block;
+        background-size: cover;
     }   
    }
 
