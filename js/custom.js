@@ -9,11 +9,13 @@
     // });
 
     $('.hamburger-menu').on('click', function () {
-        $('.site-navigation').addClass('show');
+        $('.hamburger-menu').toggleClass('open');
+        $('.site-navigation').toggleClass('show');
       });
       
       $( '.site-navigation ul' ).on("click", function(){
-        $('.site-navigation').removeClass('show');
+        $('.hamburger-menu').toggleClass('open');
+        $('.site-navigation').toggleClass('show');
       });
 
     var countdown_date = $('.countdown').data("date");
