@@ -526,7 +526,7 @@ body {
 }
 
 .the-complete-lineup-artists .artist-single {
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 /* .the-complete-lineup-artists .artist-single:nth-of-type(even) {
@@ -535,7 +535,7 @@ body {
 
 .the-complete-lineup-artists .artist-single figure {
     margin: 0;
-    padding: 0;
+    padding: 10;
     width: 100%;
 }
 
@@ -550,6 +550,7 @@ body {
     max-width: 100%;
     height: auto;
     width: 255px;
+  
     
 }
 .the-complete-lineup-artists .artist-single .featured-image img:hover{
