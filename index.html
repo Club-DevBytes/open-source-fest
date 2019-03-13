@@ -103,6 +103,31 @@
             10% { transform: translateY(0); opacity: 1; }
             100% { transform: translateY(15px); opacity: 0;}
             }
+            #back2Top {
+    width: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    background-color: rgba(10, 251, 207, 0.456);
+    color: rgb(14, 13, 13);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: rgb(4, 250, 205);
+    color: #000;
+}
             </style>
 </head>
 
@@ -526,7 +551,7 @@
                     <div class="col-12">
                         <div class="entry-title">
                             <p>JUST THE BEST</p>
-                            <h2>Our Next Events</h2>
+                            <h2>With the Support!</h2>
                         </div><!-- entry-title -->
                     </div><!-- col-12 -->
                 </div><!-- row -->
@@ -538,13 +563,7 @@
                         <div class="swiper-slide">
                             <div class="next-event-content">
                                 <figure class="featured-image">
-                                    <img src="images/next-event-1.jpg" alt="">
-
-                                    <a
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
+                                    <img src="images/GitHub_Logo.png" alt="">
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
                         </div><!-- swiper-slide" -->
@@ -552,13 +571,7 @@
                         <div class="swiper-slide">
                             <div class="next-event-content">
                                 <figure class="featured-image">
-                                    <img src="images/next-event-2.jpg" alt="">
-
-                                    <a 
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
+                                    <img src="images/MOZILLA.jpg" alt="">
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
                         </div><!-- swiper-slide" -->
@@ -566,13 +579,7 @@
                         <div class="swiper-slide">
                             <div class="next-event-content">
                                 <figure class="featured-image">
-                                    <img src="images/next-event-3.jpg" alt="">
-
-                                    <a
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
+                                    <img src="images/GDG.png" alt="">
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
                         </div><!-- swiper-slide" -->
@@ -580,41 +587,7 @@
                         <div class="swiper-slide">
                             <div class="next-event-content">
                                 <figure class="featured-image">
-                                    <img src="images/next-event-1.jpg" alt="">
-
-                                    <a
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="images/next-event-2.jpg" alt="">
-
-                                    <a
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
-                                </figure><!-- featured-image -->
-                            </div><!-- next-event-content -->
-                        </div><!-- swiper-slide" -->
-
-                        <div class="swiper-slide">
-                            <div class="next-event-content">
-                                <figure class="featured-image">
-                                    <img src="images/next-event-3.jpg" alt="">
-
-                                    <a 
-                                        class="entry-content flex flex-column justify-content-center align-items-center">
-                                        <h3>Welcoming Party 2018</h3>
-                                        <p>Green Palace, 22 Street, 23-28, Los Angeles California</p>
-                                    </a>
+                                    <img src="images/dev.png" alt="">
                                 </figure><!-- featured-image -->
                             </div><!-- next-event-content -->
                         </div><!-- swiper-slide" -->
@@ -751,9 +724,7 @@
 
  
 <!-- /container -->
-<button class="btn btn-primary scroll-top" data-scroll="up" type="button">
-<i class="fa fa-chevron-up"></i>
-</button>
+
     <footer class="site-footer">
         <div class="footer-cover-title flex justify-content-center align-items-center">
             <h2>OS Fest</h2>
@@ -785,6 +756,7 @@
                 </div><!-- row -->
             </div><!-- container -->
         </div><!-- footer-content-wrapper -->
+        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
     </footer><!-- site-footer -->
 
     <script type='text/javascript' src='js/jquery.js'></script>
@@ -802,6 +774,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="scroll.js"></script>
+
 </body>
 
 </html>
