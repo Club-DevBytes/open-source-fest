@@ -111,8 +111,8 @@
 
     // Accordion & Toggle
     $('.accordion-wrap.type-accordion').collapsible({
-        accordion: true,
-        contentOpen: 0,
+        accordion: false,
+      //  contentOpen: 0,
         arrowRclass: 'arrow-r',
         arrowDclass: 'arrow-d'
     });
