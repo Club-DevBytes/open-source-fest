@@ -1349,7 +1349,7 @@ body {
 }
 
 .single-event-map iframe {
-    width: 100%;
+    /* width: 100%; */
     height: 460px;
 }
 
