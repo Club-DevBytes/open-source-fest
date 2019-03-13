@@ -68,6 +68,41 @@
                     .image:hover{
             box-shadow: -1px 6px 75px 17px rgba(6, 219, 219);
                     }
+                    .scroll-downs {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+            width :34px;
+            height: 55px;
+            }
+            .mousey {
+            width: 3px;
+            padding: 10px 15px;
+            height: 35px;
+            border: 2px solid #fff;
+            border-radius: 25px;
+            opacity: 0.75;
+            box-sizing: content-box;
+            }
+            .scroller {
+            width: 3px;
+            height: 10px;
+            border-radius: 25%;
+            background-color: #fff;
+            animation-name: scroll;
+            animation-duration: 2.2s;
+            animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+            animation-iteration-count: infinite;
+            }
+            @keyframes scroll {
+            0% { opacity: 0; }
+            10% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(15px); opacity: 0;}
+            }
             </style>
 </head>
 
@@ -152,6 +187,20 @@
                         <h2>Lets make this happen!</h2>
                     </div>
                 </div>
+                <div class="col-12">
+                    <h2><br></h2>
+                   </div>
+                <div class="col-12">
+                        <a class="next" href="#what">
+                <div class="scroll-downs">
+                    <div class="mousey">
+                      <div class="scroller">
+                        </div>
+                      
+                    </div>
+                  </div>
+                  </div>
+                  </div>
 
             </div>
         </div><!-- .container -->
@@ -166,7 +215,7 @@
             <div class="container">
                     <div class="lineup-artists-headline">
                     <div class="entry-header">
-                        <div class="entry-title">
+                        <div id="what"class="entry-title">
                             <h2><font color="black">What is OS Fest 1.0 ?</font></h2>
                             <figure class="image">
                                 <img src="images/about-us-content-image.jpg"
@@ -699,6 +748,11 @@
         </div><!-- home-page-last-news -->
     </div>
 
+ 
+<!-- /container -->
+<button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+<i class="fa fa-chevron-up"></i>
+</button>
     <footer class="site-footer">
         <div class="footer-cover-title flex justify-content-center align-items-center">
             <h2>OS Fest</h2>
@@ -740,6 +794,13 @@
     <script type='text/javascript' src='js/circle-progress.min.js'></script>
     <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
     <script type='text/javascript' src='js/custom.js'></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="scroll.js"></script>
 </body>
 
 </html>

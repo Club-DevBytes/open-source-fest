@@ -26,7 +26,6 @@
         $('.dmin').html(event.strftime('%-M'));
         $('.dsec').html(event.strftime('%-S'));
     });
-
     // Events Slider
     var next_event_slider = new Swiper('.next-event-slider', {
         slidesPerView: 4,
