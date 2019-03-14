@@ -1742,10 +1742,17 @@ body {
     color: #040608;
     font-size: 48px;
     font-weight: 600;
+    border-radius: 0;
+    background: white;
+    box-shadow: 0 13px 50px 9px rgba(0, 0, 0, 0.1);
+   
 }
 
 .elements-page .elements-wrap h2.entry-title {
     margin-bottom: 90px;
+    border-radius: 0;
+    background: white;
+    box-shadow: 0 13px 50px 9px rgba(0, 0, 0, 0.1);
 }
 
 .elements-page .elements-wrap .entry-content .btn {
@@ -1764,7 +1771,7 @@ body {
 }
 
 .elements-page .elements-wrap .entry-content .white {
-    background: white;
+    background: rgba(255, 255, 255, 0.623);
     box-shadow: 0 13px 50px 9px rgba(0, 0, 0, 0.1);
 }
 
@@ -1860,6 +1867,9 @@ body {
     font-size: 16px;
     color: #040608;
     cursor: pointer;
+    border-radius: 0;
+    background: white;
+    box-shadow: 0 13px 50px 9px rgba(187, 183, 183, 0.349);
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title .arrow-d::before {
@@ -1884,7 +1894,8 @@ body {
     color: #989898;
     line-height: 2;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(37, 243, 219, 0.514);
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 8px 0 rgb(8, 240, 213);
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .accordion-active {
