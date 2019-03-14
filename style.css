@@ -367,20 +367,33 @@ body {
 .lineup-artists-headline .entry-title p {
     margin: 0;
     padding: 0;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 40px;
+     /* font-weight: 600;  */
     /* text-decoration: none; */
     color: hsl(0, 0%, 48%);
     /* font-family: 'Lobster', cursive; */
+    font-family: 'Satisfy', cursive; 
 }
 
 .lineup-artists-headline .entry-title h2 {
     width: 100%;
     font-size: 48px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: hsl(0, 0%, 0%);
 }
-
+.lineup-artists-headline .entry-title h1 {
+    width: 100%;
+    
+    font-size: 60px;
+    color: hsl(175, 94%, 27%); 
+      /* font-weight: 500;  */
+      font-family: 'Permanent Marker', cursive;  
+     /* font-family: 'Dancing Script', cursive; */
+     /* font-family: 'Pacifico', cursive; */
+     /* font-family: 'Satisfy', cursive; */
+     /* font-family: 'Orbitron', sans-serif; */
+     /* font-family: 'Monoton', cursive; */
+}
 /*------------------------------------------------------------
 ## lineup-artists
 ------------------------------------------------------------*/
