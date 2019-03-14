@@ -43,12 +43,16 @@
             },
             // when window width is <= 640px
             1200: {
-                slidesPerView: 3
+                slidesPerView: 4
             }
         },
         navigation: {
             nextEl: '.next-event-slider-wrap .swiper-button-next'
-        }
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+          }
     });
 
     // Testimonial slider
