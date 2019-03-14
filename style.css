@@ -1886,7 +1886,7 @@ body {
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-content {
     display: none;
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 0 12px;
     font-size: 15px;
