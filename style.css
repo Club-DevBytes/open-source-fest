@@ -642,6 +642,7 @@ body {
 ------------------------------------------------------------*/
 .homepage-next-events {
     margin-top: 100px;
+    background: url(images/elements-total-background.jpg);
 }
 
 .homepage-next-events .entry-title p {
@@ -728,6 +729,7 @@ body {
 ------------------------------------------------------------*/
 .home-page-last-news {
     margin-top: 220px;
+    background: url(images/elements-total-background.jpg) no-repeat;
 }
 
 .home-page-last-news .entry-title p {
