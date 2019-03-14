@@ -1854,7 +1854,7 @@ body {
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .entry-title {
-    width: 350px;
+    width: 90%;
     margin-bottom: 20px;
     padding: 20px;
     font-size: 16px;
@@ -1883,6 +1883,8 @@ body {
     font-weight: 300;
     color: #989898;
     line-height: 2;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(37, 243, 219, 0.514);
 }
 
 .accordion-and-tabs-wrap .accordion-wrap .accordion-active {
