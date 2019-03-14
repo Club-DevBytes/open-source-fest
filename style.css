@@ -367,12 +367,12 @@ body {
 .lineup-artists-headline .entry-title p {
     margin: 0;
     padding: 0;
-    font-size: 35px;
+    font-size: 30px;
      /* font-weight: 600;  */
     /* text-decoration: none; */
     color: hsl(0, 0%, 4%);
     /* font-family: 'Lobster', cursive; */
-    font-family: 'Srisakdi', cursive;
+    /* font-family: 'Srisakdi', cursive; */
 }
 
 .lineup-artists-headline .entry-title h2 {
