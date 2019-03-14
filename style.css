@@ -368,7 +368,12 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
+<<<<<<< HEAD
     /* font-weight: lighter; */
+=======
+    /* font-weight: 600; */
+    text-decoration: none;
+>>>>>>> 61370ebccfa7e9d04d365c5bca5fcbde4917dd5e
     color: hsl(0, 0%, 48%);
     /* font-family: 'Lobster', cursive; */
 
