@@ -341,7 +341,7 @@ body {
 .content-section {
     min-height: 4640px;
     width: 100%;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     background: url("images/middle-cover.jpg") no-repeat;
     background-size: 100% auto;
 }
@@ -1845,6 +1845,7 @@ body {
 .tabs-container {
     background: #f3f8f9;
     box-shadow: 5px 14px 100px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
 }
 
 .tabs-container .tab-content {
