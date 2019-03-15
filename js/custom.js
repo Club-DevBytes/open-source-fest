@@ -8,6 +8,23 @@
     //     $('.site-navigation').toggleClass('show');
     // });
 
+    var browserWindow = $(window);
+
+    // :: 1.0 Preloader Active Code
+    browserWindow.on('load', function () {
+        $('.loader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+        });
+        
+        browserWindow.on('load', function () {
+			$('.preloader').fadeOut('slow', function () {
+					$(this).remove();
+			});
+    });
+    
+    // ---------------------------------------------------------------------
+
     $('.hamburger-menu').on('click', function () {
         $('.hamburger-menu').toggleClass('open');
         $('.site-navigation').toggleClass('show');
