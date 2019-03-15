@@ -731,18 +731,32 @@ body {
   
     
 }
-.the-complete-lineup-artists .artist-single .featured-imagep img {
+.the-complete-lineup-artists .artist-single .featured-imagep img { /* samsung*/
     max-width: 100%;
-    height: 13.8em;
+    height: 11.5em;
     width: 255px;    
 }
-@media only screen and (max-device-width: 400px) { /*samsung and pixels */
+@media only screen and (min-device-width: 375px) { /* iphone x , 6,7,8*/
+    .the-complete-lineup-artists .artist-single .featured-imagep img {
+        max-width: 100%;
+        height: 12.4em;
+        width: 255px;    
+    }
+    }
+@media only screen and (min-device-width: 500px) { 
 .the-complete-lineup-artists .artist-single .featured-imagep img {
     max-width: 100%;
     height: 11.8em;
     width: 255px;    
 }
 }
+@media only screen and (min-device-width: 400px) { /*pixel2 & xl / iphone 6,7,8 plus */
+    .the-complete-lineup-artists .artist-single .featured-imagep img {
+        max-width: 100%;
+        height: 13.5em;
+        width: 255px;    
+    }
+    }
  @media only screen and (max-device-width: 326px) {/* iphone and small phone */
     .the-complete-lineup-artists .artist-single .featured-imagep img {
         max-width: 100%;
