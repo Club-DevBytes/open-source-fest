@@ -573,6 +573,7 @@ body {
 }
 .the-complete-lineup-artists .artist-single .featured-image a {
     display: block;
+    width: 255px;
 }
 
 .the-complete-lineup-artists .artist-single h2 {
