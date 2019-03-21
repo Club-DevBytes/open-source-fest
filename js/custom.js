@@ -1,32 +1,27 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js', { scope: '/' }).then(() => {
-      console.log('Service Worker registered successfully.');
-    }).catch(error => {
-      console.log('Service Worker registration failed:', error);
-    });
-// (function($) {
-//     // 'use strict';
 
-//     // Main Navigation
-//     // $( '.hamburger-menu' ).on( 'click', function() {
-//     //     $(this).toggleClass('open');
-//     //     $('.site-navigation').toggleClass('show');
-//     // });
+(function($) {
+    // 'use strict';
 
-//     var browserWindow = $(window);
+    // Main Navigation
+    // $( '.hamburger-menu' ).on( 'click', function() {
+    //     $(this).toggleClass('open');
+    //     $('.site-navigation').toggleClass('show');
+    // });
 
-//     // :: 1.0 Preloader Active Code
-//     browserWindow.on('load', function () {
-//         $('.loader').fadeOut('slow', function () {
-//             $(this).remove();
-//         });
-//         });
+    var browserWindow = $(window);
+
+    // :: 1.0 Preloader Active Code
+    browserWindow.on('load', function () {
+        $('.loader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+        });
         
-//         browserWindow.on('load', function () {
-// 			$('.preloader').fadeOut('slow', function () {
-// 					$(this).remove();
-// 			});
-//     });
+        browserWindow.on('load', function () {
+			$('.preloader').fadeOut('slow', function () {
+					$(this).remove();
+			});
+    });
     
     
     // ---------------------------------------------------------------------
