@@ -1,17 +1,17 @@
-self.addEventListener('install', e => {
-  e.waitUntil(
-    // after the service worker is installed,
-    // open a new cache
-    caches.open('my-pwa-cache').then(cache => {
-      // add all URLs of resources we want to cache
-      return cache.addAll([
-        '/',
-        '/index.html',
-        '/about.html',
-        '/images/doggo.jpg',
-        '/styles/main.min.css',
-        '/scripts/main.min.js',
-      ]);
-    })
+var CACHE_NAME = 'my-site-cache-v1';
+var urlsToCache = [
+  '/',
+  '/styles/main.css',
+  '/script/main.js'
+];
+
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
- });
+});
