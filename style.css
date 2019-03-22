@@ -160,6 +160,17 @@ padding: 35px;
 background-color: rgb(255, 255, 255);         
 }
 }
+/**************************************************************************************************************************************/
+
+/*------------------------------------------------------------
+# Global classes
+------------------------------------------------------------*/
+.flex {
+    display: flex;
+}
+
+
+
 .preloader {
     background-color: rgba(17, 17, 17, 0.774);
     width: 100%;
@@ -318,12 +329,7 @@ background-color: rgb(255, 255, 255);
     -webkit-animation: rotate2 4s infinite linear;
             animation: rotate2 4s infinite linear;
   }
-/*------------------------------------------------------------
-# Global classes
-------------------------------------------------------------*/
-.flex {
-    display: flex;
-}
+  
 
 /* ------------------------------------------------------------------------------------ */
 body {
@@ -796,7 +802,7 @@ body {
     .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
         position: absolute;
         z-index: 99;
-        top: 100px;
+        top: 50px;
         left: -75px;
         width: calc(100% + 75px);
     }
@@ -812,11 +818,6 @@ body {
     }
 }
 
-@media screen and (min-width: 992px) {
-    .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
-        padding: 50px;
-    }
-}
 
 
 @media screen and (min-width: 1200px) {
