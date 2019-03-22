@@ -1,3 +1,1 @@
-# open-source-fest
-
-Welcome to the OpenSource Website of O. S fest
+Some project which is still in project.
